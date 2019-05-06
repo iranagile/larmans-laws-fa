@@ -1,4 +1,4 @@
-# Larman's Laws (Farsi Translation) wenbsite
+# Larman's Laws (Farsi Translation) webbsite
 
 Persian/Farsi translation of [Larman's Laws of Organizational Behavior](https://www.craiglarman.com/wiki/index.php?title=Larman%27s_Laws_of_Organizational_Behavior#) with landing website
 
