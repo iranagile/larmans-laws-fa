@@ -25,7 +25,7 @@ Make sure these are installed first.
 cd /path/to/project/folder
 
 # Install dependencies
-npm instal
+npm install
 
 # Start local server for live development (localhost:8080)
 gulp server
