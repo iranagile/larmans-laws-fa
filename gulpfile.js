@@ -69,8 +69,15 @@ gulp.task('pack-styles', function() {
 
 gulp.task('pack-js', function() {
   gulp.src(src.js)
+    .pipe(plugins.plumber())
     .pipe(plugins.concat('bundle.all.js'))
     .pipe(plugins.uglify())
+    .on('error', function(err) {
+      notifier.notify({title: 'JS Compression Error!', message: err.message, sound: true});
+
+      gutil.log(err);
+      this.emit('end');
+    })
     .pipe(gulp.dest(dest));
 });
 
