@@ -1,0 +1,47 @@
+{
+  "name": "larmans-laws",
+  "version": "1.0.0",
+  "description": "Larman's Laws persian translation",
+  "main": "build/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "larman",
+    "law",
+    "organization",
+    "behavior",
+    "scale",
+    "culture",
+    "structure",
+    "scrum",
+    "agile",
+    "craiglarman"
+  ],
+  "contributors": [
+    "Hamid Saberi <hamid.saberi@gmail.com> (https://www.linkedin.com/in/hamidsaberi)",
+    "Soheil Samadzadeh <s.samadzadeh@gmail.com> (https://www.linkedin.com/in/soheil-samadzadeh)"
+  ],
+  "license": "MIT",
+  "author": "Soheil Samadzadeh <s.samadzadeh@gmail.com> (https://www.linkedin.com/in/soheil-samadzadeh)",
+  "dependencies": {
+    "bulma": "^0.7.4",
+    "bulma-rtl": "^0.7.1"
+  },
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-live-server": "0.0.31",
+    "gulp-livereload": "^4.0.1",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-nunjucks-render": "^2.2.3",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-strip-json-comments": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-util": "^3.0.8",
+    "node-notifier": "^5.4.0"
+  }
+}

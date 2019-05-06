@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+
+$primary: #a51890;
+$secondary: #da1884;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+//$body-size: 20px;
+$body-line-height: 1.5;
+
+$custom-colors: ('primary': $primary, 'secondary': $secondary);
+$bullet-size-normal: 2em;
+
+@import "./node_modules/bulma-rtl/bulma-rtl";
+
+.button {
+  &:not(:last-child) {
+    margin-right: 0 !important;
+    margin-left: 0.5rem !important;
+  }
+}
+
+sup {
+  cursor: pointer;
+}
+
+.rules {
+  .field:not(:last-child) {
+    margin-bottom: 2em;
+  }
+  .tag {
+    min-height: $bullet-size-normal;
+    min-width: $bullet-size-normal;
+  }
+}
+
+.footer {
+    background-color: #fafafa;
+    padding: 3rem 1.5rem 6rem;
+  .md {
+    margin-left: .5rem;
+    margin-right: .5rem;
+    color: $grey-dark;
+  }
+}
