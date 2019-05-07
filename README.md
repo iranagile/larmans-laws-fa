@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/sszdh/larmans-laws-fa.svg?branch=master)](https://travis-ci.org/sszdh/larmans-laws-fa)
+
 # Larman's Laws (Farsi Translation) website
 
 Persian/Farsi translation of [Larman's Laws of Organizational Behavior](https://www.craiglarman.com/wiki/index.php?title=Larman%27s_Laws_of_Organizational_Behavior#) with landing website
