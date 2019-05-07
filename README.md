@@ -2,7 +2,7 @@
 
 # Larman's Laws (Farsi Translation) website
 
-Persian/Farsi translation of [Larman's Laws of Organizational Behavior](https://www.craiglarman.com/wiki/index.php?title=Larman%27s_Laws_of_Organizational_Behavior#) with landing website
+Persian/Farsi translation of [Larman's Laws of Organizational Behavior](https://www.craiglarman.com/wiki/index.php?title=Larman%27s_Laws_of_Organizational_Behavior#) with [Landing Page](https://iranagile.github.io/larmans-laws-fa/)!
 
 ### Prerequisites
 - node
