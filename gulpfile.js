@@ -20,7 +20,7 @@ var gulp = require('gulp'),
 const src = {
   nunjucks: './src/pages/*.+(html|nunjucks)',
   sass: './src/styles/sass/**/*.scss',
-  assets: './src/assets/**/*',
+  assets: './src/images/**/*',
   js: './src/scripts/**/*.js'
 };
 
